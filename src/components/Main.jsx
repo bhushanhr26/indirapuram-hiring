@@ -59,14 +59,6 @@ export default function Main() {
             >
               temp1
             </th>
-            {/* <th
-              style={{
-                border: "1px solid black",
-                backgroundColor: "darksalmon",
-              }}
-            >
-              Is In Range
-            </th> */}
           </tr>
 
           {value.map((x, i) => {
