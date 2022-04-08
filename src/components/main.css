@@ -1,0 +1,39 @@
+.div1 {
+  color: darkblue;
+  font-family: fantasy;
+  animation-direction: alternate;
+}
+.pot{	
+    animation: example 4s infinite;
+    
+  }
+  
+  @keyframes example {
+    0%   {background-color:rgb(250, 175, 175); left:0px; top:0px;}
+    25%  {background-color:rgb(244, 244, 179); left:200px; top:0px;}
+    50%  {background-color:rgb(159, 247, 237); left:200px; top:0px;}
+    100% {background-color:rgb(236, 159, 159); left:0px; top:0px;}
+  }
+.c{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 10%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 10%;
+    }
+  }
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: xx-large;
+}
